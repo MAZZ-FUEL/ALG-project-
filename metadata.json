@@ -1,0 +1,6 @@
+{
+  "name": "ALG Projects",
+  "description": "Multi-division South African brand offering Property, Health, and Transport services. Turning Dreams into Reality.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
