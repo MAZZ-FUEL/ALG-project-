@@ -4,7 +4,8 @@ export function Footer() {
       <div className="footer-top">
         <div className="footer-brand">
           <a href="#" className="footer-logo">
-            <div className="footer-logo-ring"><span>ALG</span></div>
+            <img src="/logo.jpg" alt="ALG Projects Logo" className="footer-logo-img" onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.nextElementSibling!.style.display = 'flex'; }} />
+            <div className="footer-logo-ring" style={{ display: 'none' }}><span>ALG</span></div>
             <span className="footer-logo-name">ALG <em>Projects</em></span>
           </a>
           <p className="footer-tagline">Turning Dreams into Reality.<br/>A proudly South African multi-division business.</p>

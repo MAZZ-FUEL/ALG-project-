@@ -26,7 +26,8 @@ export function Navbar() {
     <>
       <nav id="nav" className={scrolled ? 'scrolled' : ''}>
         <a href="#" className="nav-logo" onClick={closeMenu}>
-          <div className="nav-ring"><span>ALG</span></div>
+          <img src="/logo.jpg" alt="ALG Projects Logo" className="nav-logo-img" onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.nextElementSibling!.style.display = 'flex'; }} />
+          <div className="nav-ring" style={{ display: 'none' }}><span>ALG</span></div>
           <span className="nav-brand">ALG <em>Projects</em></span>
         </a>
         <ul className="nav-links">

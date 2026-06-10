@@ -23,9 +23,13 @@ export function Founder() {
       </div>
       <div className="about-visual reveal">
         <div className="about-portrait">
-          <div className="portrait-inner">
-            <span className="portrait-initials">ALG</span>
-          </div>
+          <img 
+            src="/founder.jpg" 
+            alt="Andisiwe Lauretta Gulubele" 
+            onError={(e) => {
+              e.currentTarget.src = "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=800";
+            }}
+          />
         </div>
         <div className="about-float-card">
           <p className="float-name">Andisiwe Gulubele</p>
